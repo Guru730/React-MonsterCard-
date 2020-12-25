@@ -1,0 +1,42 @@
+
+body {
+    background: linear-gradient(to left,
+     black, lightblue
+    );
+}
+
+.inputfield-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+  
+}
+
+.input-field{
+    width: 30vw;
+    height: 2vw;
+    border-radius: 1rem;
+    font-size: 1.2vw;
+    transition: transform .12s ease-in;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.input-field:hover {
+    transform: scale(1.03);
+    box-shadow: lightgray 2px 2px;
+}
+
+
+.heading-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4vw;
+    color: white;
+    cursor: pointer;
+}

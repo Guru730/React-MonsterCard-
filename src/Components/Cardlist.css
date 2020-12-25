@@ -1,0 +1,9 @@
+.card-List {
+    width: 80vw;
+    display: grid;
+    margin: 2vw 10vw auto 10vw;
+    grid-template-columns:  repeat(5, 1fr);
+    grid-template-rows: 50vh 50vh 50vh 50vh;
+    grid-gap: 3vh;
+}
+
